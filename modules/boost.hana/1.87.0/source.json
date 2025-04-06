@@ -1,0 +1,10 @@
+{
+    "integrity": "sha256-tcvmLAeb2roCRber5YyvVQME3FsErfyn2dl9gO3/XgA=",
+    "strip_prefix": "hana-boost-1.87.0",
+    "url": "https://github.com/boostorg/hana/archive/refs/tags/boost-1.87.0.tar.gz",
+    "patch_strip": 0,
+    "overlay": {
+        "BUILD.bazel": "sha256-cTE5cTTSc9gCO+WjYg+fiFildL0P/WMRXX3bvSBhoBc=",
+        "MODULE.bazel": "sha256-8bsOPhpU0A4tQ+hKiFuljDPqSgpH3pceY6WqqqWQZ5o="
+    }
+}

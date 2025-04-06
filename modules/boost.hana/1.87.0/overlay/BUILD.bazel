@@ -1,0 +1,32 @@
+load("@rules_cc//cc:defs.bzl", "cc_library")
+
+package(default_visibility = ["//visibility:public"])
+
+cc_library(
+    name = "boost.hana",
+    hdrs = glob(
+        ["include/**/*.hpp"],
+        exclude = [
+            "include/boost/hanal/detail/posix/*",
+            "include/boost/hanal/detail/windows/*",
+            "include/boost/hanal/detail/demangling/msvc.hpp",
+        ],
+    ),
+    features = ["parse_headers"],
+    includes = ["include"],
+    local_defines = select({
+        "@platforms//os:windows": ["BOOST_OS_WINDOWS"],
+        "//conditions:default": [],
+    }),
+    textual_hdrs = [] + select({
+        "@platforms//os:windows": glob(["include/boost/hana/detail/windows/*_impl.hpp"]),
+        "//conditions:default": glob(["include/boost/hana/detail/posix/*_impl.hpp"]),
+    }),
+    deps = [
+        "@boost.config",
+        "@boost.core",
+        "@boost.fusion",
+        "@boost.mpl",
+        "@boost.tuple",
+    ],
+)

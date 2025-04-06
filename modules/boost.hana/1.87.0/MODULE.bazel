@@ -1,0 +1,16 @@
+module(
+    name = "boost.hana",
+    version = "1.87.0",
+    bazel_compatibility = [">=7.2.1"],
+    compatibility_level = 108700,
+)
+
+
+bazel_dep(name = "boost.config", version = "1.87.0")
+bazel_dep(name = "boost.core", version = "1.87.0")
+bazel_dep(name = "boost.fusion", version = "1.87.0")
+bazel_dep(name = "boost.mpl", version = "1.87.0")
+bazel_dep(name = "boost.tuple", version = "1.87.0")
+
+bazel_dep(name = "platforms", version = "0.0.11")
+bazel_dep(name = "rules_cc", version = "0.1.1")
