@@ -1,4 +1,5 @@
 {
-    "type": "local_path",
-    "path": "/home/asa/sbox/immer"
+    "type": "git_repository",
+    "remote": "https://github.com/arximboldi/immer.git",
+    "commit": "df6ef46d97e1fe81f397015b9aeb32505cef653b"
 }

@@ -1,7 +1,5 @@
 {
-    "type": "local_path",
-    "path": "/home/asa/sbox/lager"
+    "type": "git_repository",
+    "remote": "https://github.com/asa/lager.git",
+    "commit": "61e10bf380f951a9e23294445219509df8d90157"
 }
-
-
-

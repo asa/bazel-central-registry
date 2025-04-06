@@ -1,4 +1,5 @@
 {
-    "type": "local_path",
-    "path": "/home/asa/sbox/zug"
+    "type": "git_repository",
+    "remote": "https://github.com/arximboldi/zug.git",
+    "commit": "662370497875b4ad536f08c415463d4d08d33b5f"
 }
