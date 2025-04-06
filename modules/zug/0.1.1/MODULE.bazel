@@ -1,0 +1,5 @@
+module(
+    name = "zug",
+    version = "0.1.1",
+    compatibility_level = 0,
+)

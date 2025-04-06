@@ -1,0 +1,5 @@
+module(
+    name = "immer",
+    version = "0.8.1",
+    compatibility_level = 0,
+)

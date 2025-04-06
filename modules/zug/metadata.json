@@ -1,0 +1,18 @@
+{
+    "homepage": "https://sinusoid.es/zug/",
+    "maintainers": [
+        {
+            "email": "asahammond@gmail.com",
+            "github": "asa",
+            "github_user_id": 96153,
+            "name": "Asa Hammond"
+        }
+    ],
+    "repository": [
+        "github:arximboldi/zug.git"
+    ],
+    "versions": [
+        "0.1.1"
+    ],
+    "yanked_versions": {}
+}

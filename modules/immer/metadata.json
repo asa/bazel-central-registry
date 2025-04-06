@@ -1,0 +1,18 @@
+{
+    "homepage": "https://sinusoid.es/immer/",
+    "maintainers": [
+        {
+            "email": "asahammond@gmail.com",
+            "github": "asa",
+            "github_user_id": 96153,
+            "name": "Asa Hammond"
+        }
+    ],
+    "repository": [
+        "github:arximboldi/immer"
+    ],
+    "versions": [
+        "0.8.1"
+    ],
+    "yanked_versions": {}
+}
